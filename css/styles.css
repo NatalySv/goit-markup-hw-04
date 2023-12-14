@@ -142,7 +142,16 @@ h3 {
 }
 
 .slogan {
+  background-image: linear-gradient(
+      to top,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/hero-bg.jpg);
   background-color: #2e2f42;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
 }
 .slogan-text {
@@ -230,7 +239,7 @@ h3 {
 .team-list-text {
   color: #434455;
 }
-.portfolio {
+.portfol {
 }
 .portfol-title {
 }
